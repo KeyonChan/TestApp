@@ -1,0 +1,12 @@
+<templateSet group="AndroidXML">
+  <template name="tv" value="&lt;TextView&#10;    android:id=&quot;@+id/tv_&quot;&#10;    android:layout_width=&quot;wrap_content&quot;&#10;    android:layout_height=&quot;wrap_content&quot; &#10;    android:text=&quot;hello&quot;/&gt;" description="&lt;TextView" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="et" value="&lt;EditText&#10;    android:id=&quot;@+id/et_&quot;&#10;    android:layout_width=&quot;wrap_content&quot;&#10;    android:layout_height=&quot;wrap_content&quot; /&gt;" description="&lt;EditText" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+</templateSet>
