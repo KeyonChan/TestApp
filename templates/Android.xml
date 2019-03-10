@@ -5,8 +5,8 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="tt" value="android.widget.Toast.makeText($context$, &quot;$methodName$ &quot;+AAAAA, Toast.LENGTH_SHORT).show();" description="吐司" toReformat="true" toShortenFQNames="true">
-    <variable name="context" expression="variableOfType(&quot;android.content.Context&quot;)" defaultValue="" alwaysStopAt="true" />
+  <template name="tt" value="android.widget.Toast.makeText($context$.this, &quot;$methodName$ &quot;+AAAAA, Toast.LENGTH_SHORT).show();" description="吐司" toReformat="true" toShortenFQNames="true">
+    <variable name="context" expression="className()" defaultValue="" alwaysStopAt="true" />
     <variable name="methodName" expression="methodName()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_STATEMENT" value="true" />
@@ -15,6 +15,11 @@
   <template name="ff" value="TextView tv_ = (TextView) findViewById(R.id.tv_);" description="查找View" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="pub" value="public static int test(){&#10;    return 11111;&#10;}" description="创建公共方法" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
 </templateSet>
