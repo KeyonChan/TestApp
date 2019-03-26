@@ -12,7 +12,7 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="ff" value="TextView tv_ = (TextView) findViewById(R.id.tv_);" description="查找View" toReformat="true" toShortenFQNames="true">
+  <template name="ff" value="TextView tv_ = findViewById(R.id.tv_);" description="查找View" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_STATEMENT" value="true" />
     </context>
