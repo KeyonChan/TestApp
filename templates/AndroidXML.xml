@@ -1,10 +1,10 @@
 <templateSet group="AndroidXML">
-  <template name="tv" value="&lt;TextView&#10;    android:id=&quot;@+id/tv_&quot;&#10;    android:layout_width=&quot;wrap_content&quot;&#10;    android:layout_height=&quot;wrap_content&quot; &#10;    android:text=&quot;hello&quot;/&gt;" description="&lt;TextView" toReformat="false" toShortenFQNames="true">
+  <template name="tv" value="&lt;TextView&#10;    android:id=&quot;@+id/tv_&quot;&#10;    android:layout_width=&quot;wrap_content&quot;&#10;    android:layout_height=&quot;wrap_content&quot; &#10;    android:text=&quot;hello&quot;/&gt;" description="TextView" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="XML" value="true" />
     </context>
   </template>
-  <template name="et" value="&lt;EditText&#10;    android:id=&quot;@+id/et_&quot;&#10;    android:layout_width=&quot;wrap_content&quot;&#10;    android:layout_height=&quot;wrap_content&quot; /&gt;" description="&lt;EditText" toReformat="false" toShortenFQNames="true">
+  <template name="et" value="&lt;EditText&#10;    android:id=&quot;@+id/et_&quot;&#10;    android:layout_width=&quot;wrap_content&quot;&#10;    android:layout_height=&quot;wrap_content&quot; /&gt;" description="EditText" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="XML" value="true" />
     </context>
@@ -14,7 +14,7 @@
       <option name="XML" value="true" />
     </context>
   </template>
-  <template name="perm" value="&lt;uses-permission android:name=&quot;android.permission.INTERNET&quot; /&gt;" description="permission" toReformat="false" toShortenFQNames="true">
+  <template name="perm" value="&lt;uses-permission android:name=&quot;android.permission.INTERNET&quot; /&gt;&#10;&lt;uses-permission android:name=&quot;android.permission.ACCESS_NETWORK_STATE&quot;/&gt;&#10;&lt;uses-permission android:name=&quot;android.permission.ACCESS_WIFI_STATE&quot; /&gt;&#10;&lt;uses-permission android:name=&quot;android.permission.WRITE_EXTERNAL_STORAGE&quot; /&gt;&#10;&lt;uses-permission android:name=&quot;android.permission.SEND_SMS&quot; /&gt;&#10;&lt;uses-permission android:name=&quot;android.permission.RECEIVE_SMS&quot;/&gt;&#10;&lt;uses-permission android:name=&quot;android.permission.READ_SMS&quot; /&gt;&#10;&lt;uses-permission android:name=&quot;android.permission.CALL_PHONE&quot;/&gt;&#10;&lt;uses-permission android:name=&quot;android.permission.READ_CONTACTS&quot; /&gt;&#10;&lt;!--粗略定位：wifi--&gt;&#10;&lt;uses-permission android:name=&quot;android.permission.ACCESS_COARSE_LOCATION&quot;/&gt;&#10;&lt;!--精确定位：GPS--&gt;&#10;&lt;uses-permission android:name=&quot;android.permission.ACCESS_FINE_LOCATION&quot;/&gt;&#10;" description="常用权限" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="XML_TEXT" value="true" />
     </context>
