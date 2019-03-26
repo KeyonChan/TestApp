@@ -14,4 +14,9 @@
       <option name="XML" value="true" />
     </context>
   </template>
+  <template name="perm" value="&lt;uses-permission android:name=&quot;android.permission.INTERNET&quot; /&gt;" description="permission" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
 </templateSet>
