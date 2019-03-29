@@ -1,5 +1,5 @@
 <templateSet group="Android">
-  <template name="tag" value="private static final String TAG = &quot;$value$&quot;;" description="创建TAG常量" toReformat="false" toShortenFQNames="true">
+  <template name="tag" value="    private static final String TAG = &quot;$value$&quot;;" description="创建TAG常量" toReformat="false" toShortenFQNames="true">
     <variable name="value" expression="className()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_DECLARATION" value="true" />
