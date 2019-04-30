@@ -1,0 +1,7 @@
+<templateSet group="other">
+  <template name="reg" value="//region xxxxx&#10;&#10;//endregion" description="region" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+</templateSet>
