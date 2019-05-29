@@ -12,12 +12,12 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="ff" value="tv_ = findViewById(R.id.tv_);" description="查找View" toReformat="true" toShortenFQNames="true">
+  <template name="fvb" value="tv_test = findViewById(R.id.tv_test);" description="查找View" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="pub" value="public static int test(){&#10;    return 11111;&#10;}" description="创建公共方法" toReformat="false" toShortenFQNames="true">
+  <template name="clk" value="@Override&#10;public void onClick(View v) {&#10;    switch (v.getId()){&#10;        case R.id.btn_1:&#10;&#10;            break;&#10;    }&#10;}" description="实现click接口" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_DECLARATION" value="true" />
     </context>
